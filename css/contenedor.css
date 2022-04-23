@@ -1,0 +1,58 @@
+.contenedor{
+    margin-left: 152px;
+    margin-bottom: 30px;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700 bold;
+    line-height: 38px;
+    color: #464646;
+}
+.verTodo{
+    border: none;
+    background: none;
+    color: #2a7ae4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px; 
+}
+.verTodo::after{
+    color: #2a7ae4;
+    content: " →"
+
+}
+.tituloConteiner{
+    display: inline-flex;
+    width: 1136px;
+    justify-content: space-between;
+}
+.productos{
+    width: 1136px;
+    display:inline-flex;
+    justify-content:space-between ;
+}
+.productoTitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #464646;
+}
+.precioProducto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #464646;
+}
+.verProductoBoton{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #2a7ae4; 
+    background: none;
+    border: none;
+}

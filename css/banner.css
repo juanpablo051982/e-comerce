@@ -1,0 +1,39 @@
+.banner{
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    width: 1440px;
+    height: 352px;
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+.contenedorFrase{
+    width: 751px;
+    height: auto;
+    padding-left: 152px;
+    padding-top: 80px;
+
+}
+.mesPromocional{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    font-weight: 700 bold;
+    color: #ffffff;
+}
+.parrafoFrase{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 751px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+}
+.botonConsola{
+    width: 129px;
+    height: 51px;
+    background: #2a7ae4;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400 regular ;
+    font-size: 16px;
+}
+

@@ -1,0 +1,68 @@
+.contactos{
+    display:inline-flex;
+    width: 1440px;
+    height: 368px;
+    background-color: #eaf2fd;
+    justify-content: space-between;
+}
+.logoContacto{
+    display: flex;
+    width: 176px;
+    height: 50px;
+    margin-top:34px ;
+    
+}
+.varios{
+    display: flex;
+    flex-direction: column;
+    width: 176px;
+    height: 234px;
+    margin-top:64px ;
+    margin-bottom: 64px;
+    justify-content: space-between;
+}
+.enlace{
+    text-decoration:  none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500 medium;
+    line-height: 19px;
+    
+}
+.contacto{
+    width: 560px;
+    height: 240px;
+    margin-right: 152px;
+    margin-top: 64px;   
+}
+.contacto h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.cajaNombre{
+    width: 560px;
+    height: 56px;
+    margin-bottom: 15px;
+    border: none;
+}
+.cajaMensaje{
+    width: 560px;
+    height: 82px;
+    margin-bottom: 10px;
+    border: none;
+}
+.botonEnviar{
+    width: 144px;
+    height: 51px;
+    background: #2a7ae4;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400 regular ;
+    font-size: 16px;
+}
+.footer{
+    width: 1440px;
+    height: 102px;
+    background-color: #ffffff;
+    text-align: center;
+}
