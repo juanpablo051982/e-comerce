@@ -1,0 +1,24 @@
+.volverInicio{
+    font-size: xx-large;
+    margin-left: 152px;
+}
+.articulo{
+    display: inline-flex;
+    margin-bottom: 2em;
+    margin-left: 152px;
+    margin-top: 2em;
+}
+.fotoArticulo{
+    width: 560px;
+    height: 320px ;
+    object-fit: contain;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.articulo h1{
+    font-size: 56px;
+}
+.articulo p{
+    text-align: justify;
+    margin-right: 152px;
+}
