@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/agregarArticulo.css" rel="stylesheet" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <script src="../js/validarArticulo.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="volverInicio">Vover al inicio</a>
+        <h1 class="titulo">Agregar nuevo producto</h1>
+    </header>
+    <form class="formulario" onsubmit="return validarArticulo();">
+        <label for="agregarImagen" class="label">Busque una imagen en su ordenador</label>
+        <input type="file" id="agregarImagen" class="agregarImagen">
+        <input type="text" class="nombre" placeholder=" Nombre del producto" id="nombre">
+        <input type="text" class="precio" placeholder=" Precio del producto" id="precio">
+        <input type="text" class="descripcion" placeholder=" Descripcion del producto" id="descripcion">
+        <input type="submit" class="agregarProducto" value="Agregar producto">
+    </form>
+</body>
+</html>

@@ -1,17 +1,17 @@
 .volverInicio{
     font-size: xx-large;
-    margin-left: 152px;
+    margin-left: 52px;
 }
 .articulo{
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin-bottom: 2em;
-    margin-left: 152px;
     margin-top: 2em;
 }
 .fotoArticulo{
-    width: 560px;
-    height: 320px ;
-    object-fit: contain;
+    width: 80%;
+    height: auto;
+    margin-left: 52px;
     margin-bottom: 2em;
     margin-top: 2em;
 }
@@ -20,5 +20,19 @@
 }
 .articulo p{
     text-align: justify;
-    margin-right: 152px;
+    width: 80%;
 }
+@media screen and (max-width: 950px){
+    .articulo{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .contenedor{
+        margin-left: 0px;
+    }
+    .volverInicio{
+        margin-left: 0px;
+    }
+}
+    

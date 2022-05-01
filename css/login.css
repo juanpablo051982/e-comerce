@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(180, 185, 185);
+}
+.volverInicio{
+    
+    font-size: x-large;
+    color: black;
+    text-align: start;
+}
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.formulario{
+    display: grid;
+    grid-template-rows: repeat(auto-fill);
+    grid-template-columns: 80%;
+    row-gap: 2em;
+    place-content: center;
+}
+
+.Enviar{
+    height: 5em;
+    border: none;
+    background-color: #2a7ae4;
+    color: #ffffff;
+}
+.password, .email{
+    height: 5em;
+    border: none;
+    
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(180, 185, 185);
+}
+.volverInicio{
+
+    font-size: x-large;
+    color: black;
+    text-align: start;
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.formulario{
+    display: grid;
+    row-gap: 1em;
+    grid-template-rows: repeat(auto-fill);
+    grid-template-columns: 60%;
+    place-content: center;
+}
+.agregarImagen{
+    background-color: #ffffff;
+    padding-top: 2em;
+    height: 3em;
+    border: none;
+
+}
+.label{
+    text-decoration: underline;
+}
+.nombre, .precio{
+    height: 5em;
+    border: none;
+}
+.descripcion{
+    height: 10em;
+    border: none;
+}
+
+.agregarProducto{
+    height: 5em;
+    border: none;
+    background-color: #2a7ae4;
+    color: #ffffff
+    
+}

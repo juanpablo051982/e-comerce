@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Alura geek </title>
         <link href="./css/header.css" rel="stylesheet" />
+        <link href="./css/reset.css" rel="stylesheet" />
         <link href="./css/banner.css" rel="stylesheet" />
         <link href="./css/contenedor.css" rel="stylesheet" />
         <link href="./css/contactos.css" rel="stylesheet" />
@@ -14,9 +15,11 @@
         <header>
             <section class="conteinerHeader">
                 <img class="logo" src="./imagenes/Logo.png" alt="logo de la pagina">
-                <input type="search" class="barraBusqueda" placeholder=" ¿Que deseas buscar?">
-                <button type="button" class="botonLupa" ></button>
-                <button type="button" class="botonLogin" >Login</button>
+                <div class="barraBoton">
+                    <input type="search" class="barraBusqueda" placeholder=" ¿Que deseas buscar?">
+                    <button type="button" class="botonLupa" ></button>
+                </div>
+                <a href="./html/login.html"><button  class="botonLogin" >Login</button></a>
 
             </section>
         </header>
@@ -25,13 +28,13 @@
                 <div class="contenedorFrase">
                     <h2 class="mesPromocional">Abril Promocional.</h2>
                     <p class="parrafoFrase">Productos seleccionados con 33% de descuento.</p>
-                    <button class="botonConsola">Ver consolas</button>
+                    <a href="#consola"><button class="botonConsola">Ver consolas</button></a>
                 </div>
             </section>
             <section class="contenedor">
                 <div class="tituloConteiner">
                     <h3 class="titulo">Stars Wars</h3>
-                    <button class="verTodo">Ver todo</button>
+                    <a href="./html/todosLosProducto.html"><button class="verTodo">Ver todo</button></a>
                 </div><br>
                 <div class="productos">
                     <div class="producto">
@@ -84,10 +87,10 @@
                     </div>
                 </div>
             </section>
-            <section class="contenedor">
+            <section id="consola" class="contenedor">
                 <div class="tituloConteiner">
                     <h3 class="titulo">Consolas</h3>
-                    <button class="verTodo">Ver todo</button>
+                    <a href="./html/todosLosProducto.html"><button class="verTodo">Ver todo</button></a>
                 </div><br>
                 <div class="productos">
                     <div class="producto">
@@ -143,7 +146,7 @@
             <section class="contenedor">
                 <div class="tituloConteiner">
                     <h3 class="titulo">Diversos</h3>
-                    <button class="verTodo">Ver todo</button>
+                    <a href="./html/todosLosProducto.html"><button class="verTodo">Ver todo</button></a>
                 </div><br>
                 <div class="productos">
                     <div class="producto">
@@ -209,10 +212,12 @@
                     <a href="#" class="enlace">Anuncie Aquí</a>
                 </div>
                 <div class="contacto">
-                    <h3>Hable con nosotros</h3>
-                    <input type="text" name="nombre" class="cajaNombre" placeholder="Nombre"  required id="nombre"><br>
-                    <input type="email" name="email" placeholder="Escribe tu mensaje" class="cajaMensaje" required id="mensaje"><br>
-                    <input id="enviarMensaje" type="submit" class="botonEnviar" value="Enviar mensaje" >
+                    <form action="">
+                        <h3>Hable con nosotros</h3>
+                        <input type="text" class="cajaNombre" placeholder="Nombre"  required pattern="[A-Za-z0-9 ]{1,40}" title="Ingrese letras mayusculas, minusculas, espacio o numeros  hasta 40 caracteres" id="nombre"><br>
+                        <input type="text" placeholder="Escribe tu mensaje" class="cajaMensaje"  required pattern="[A-Za-z0-9 ]{1,120}" title="Ingrese letras mayusculas, minusculas, espacio o numeros  hasta 120 caracteres" id="mensaje"><br>
+                        <button id="enviarMensaje" class="botonEnviar" >Enviar mensaje</button>
+                    </form>
                 </div>
 
             </section> 
